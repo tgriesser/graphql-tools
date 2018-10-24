@@ -14,6 +14,7 @@
 * Add support for passing a parsed schema ast to `mergeSchemas` <br/>
   [@ganemone](https://github.com/ganemone) in
   [#977](https://github.com/apollographql/graphql-tools/pull/977)
+* Fix regression where custom scalars were incorrectly replaced while recreating schema with `visitSchema`.
 
 ### 4.0.2
 
